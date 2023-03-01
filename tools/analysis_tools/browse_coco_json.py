@@ -117,7 +117,7 @@ def parse_args():
         default='data/coco/annotations/instances_train2017.json',
         help='ann file path')
     parser.add_argument(
-        '--wait-time', type=float, default=2, help='the interval of show (s)')
+        '--wait-time', type=float, default=5, help='the interval of show (s)')
     parser.add_argument(
         '--disp-all',
         action='store_true',

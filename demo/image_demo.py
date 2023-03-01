@@ -30,7 +30,7 @@ def parse_args():
         action='store_true',
         help='Switch model to deployment mode')
     parser.add_argument(
-        '--score-thr', type=float, default=0.3, help='Bbox score threshold')
+        '--score-thr', type=float, default=0.2, help='Bbox score threshold')
     parser.add_argument(
         '--class-name',
         nargs='+',
